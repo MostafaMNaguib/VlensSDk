@@ -48,3 +48,16 @@ dependencies {
 
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.MostafaMNaguib'
+                artifactId = 'first-sdk'
+                version = '1.0'
+            }
+        }
+    }
+}
