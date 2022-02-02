@@ -65,7 +65,7 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.MostafaMNaguib'
-                artifactId = 'image-preview-compose'
+                artifactId = 'first-sdk'
                 version = '1.0'
             }
         }
