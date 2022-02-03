@@ -1,4 +1,6 @@
 <resources>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Step 1 fragment</string>
+    <string name="take_photo">Take photo</string>
+    <string name="start_capture">Start capture</string>
 </resources>
