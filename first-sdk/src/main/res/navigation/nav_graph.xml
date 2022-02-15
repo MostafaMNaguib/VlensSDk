@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/step1Fragment">
+
+    <fragment
+        android:id="@+id/step1Fragment"
+        android:name="com.bitbang.first_sdk.ui.Step1Fragment"
+        android:label="Step1Fragment" />
+
+
+</navigation>

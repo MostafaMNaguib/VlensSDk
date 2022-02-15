@@ -1,6 +1,18 @@
 <resources>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Step 1 fragment</string>
     <string name="take_photo">Take photo</string>
     <string name="start_capture">Start capture</string>
+
+    <string name="capture_front_side">Capture front side</string>
+    <string name="recapture_front_side">Recapture front side</string>
+    <string name="next">Next</string>
+    <string name="recapture_back_side">Recapture back side</string>
+    <string name="capture_back_side">Capture back side</string>
+    <string name="take_a_clear_picture_of_the_front_side_of_you_id_card">Step 1:\nTake a clear picture of the front side of you ID card</string>
+    <string name="step_2_take_a_clear_picture_of_the_back_side_of_you_id_card">Step 2:\nTake a clear picture of the back side of you ID card</string>
+    <string name="top">TOP</string>
+    <string name="bottom">BOTTOM</string>
+    <string name="right">Right</string>
+    <string name="left">LEFT</string>
+
 </resources>

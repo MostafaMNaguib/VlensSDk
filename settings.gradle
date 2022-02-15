@@ -1,4 +1,3 @@
-
 rootProject.name = "VlensSDk"
 include ':app'
 include ':first-sdk'

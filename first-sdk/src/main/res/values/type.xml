@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:fontFamily">@font/dinnextlt_medium</item>
+        <item name="fontFamily">@font/dinnextlt_medium</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle1.Bold">
+        <item name="android:fontFamily">@font/dinnextlt_bold</item>
+        <item name="fontFamily">@font/dinnextlt_bold</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:fontFamily">@font/dinnextlt_medium</item>
+        <item name="fontFamily">@font/dinnextlt_medium</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle2.Bold">
+        <item name="android:fontFamily">@font/dinnextlt_bold</item>
+        <item name="fontFamily">@font/dinnextlt_bold</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+
+</resources>
