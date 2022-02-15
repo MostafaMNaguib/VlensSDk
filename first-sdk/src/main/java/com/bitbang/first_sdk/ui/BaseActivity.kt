@@ -24,6 +24,15 @@ class BaseActivity(): AppCompatActivity() {
 
         Log.e(tAG, "onCreate: this" )
 
+        try {
+            val extras = intent.extras
+            Log.e(tAG, "onCreate: try ${extras?.get("Name")}" )
+
+        }
+        catch (e: Exception){
+            Log.e(tAG, "onCreate:Exception ${e.toString()}" )
+        }
+
         navController = navHostFragment?.findNavController()!!
         navController.setGraph(R.navigation.nav_graph)
         navController.navigate(R.id.step1Fragment)
