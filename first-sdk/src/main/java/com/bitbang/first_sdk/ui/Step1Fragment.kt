@@ -59,7 +59,6 @@ class Step1Fragment : Fragment() {
             )
         }
 
-        Log.e(tAG, "onViewCreated: ${binding.frontSideImageTitleTextView.text}" )
 
 //        binding.imageCaptureButton.setOnClickListener { takePhoto() }
         cameraExecutor = Executors.newSingleThreadExecutor()
