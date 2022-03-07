@@ -15,6 +15,7 @@
         android:supportsRtl="true"
         android:hardwareAccelerated="false"
         android:largeHeap="true"
+        android:name=".ApplicationRecognition"
         android:theme="@style/Theme.VlensSDk">
         <activity
             android:name=".MainActivity"

@@ -13,16 +13,11 @@
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:largeHeap="true"
+        android:name=".network.di.App"
         android:supportsRtl="true">
         <activity
             android:name=".ui.BaseActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
         </activity>
     </application>
 

@@ -15,4 +15,11 @@
     <string name="right">Right</string>
     <string name="left">LEFT</string>
 
+    <string name="step_3_nrecord_a_video_of_your_id_card_while_moving_your_phone">Step 3:\nRecord a video of your id card while moving your phone</string>
+    <string name="do_you_want_to_proceed_with_this_video_or_recapture">Do you want to proceed with this video or recapture?</string>
+    <string name="start_recording_video">Start recording video</string>
+    <string name="re_record_video">re record video</string>
+    <string name="do_you_want_to_proceed_with_this_picture_or_recapture">Do you want to proceed with this picture or recapture?</string>
+
+
 </resources>

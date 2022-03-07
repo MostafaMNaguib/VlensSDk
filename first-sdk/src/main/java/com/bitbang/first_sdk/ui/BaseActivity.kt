@@ -7,6 +7,8 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import com.bitbang.first_sdk.R
 import com.bitbang.first_sdk.databinding.ActivityBaseBinding
+import com.bitbang.first_sdk.utils.ServiceStepTypes
+import java.math.RoundingMode.valueOf
 
 class BaseActivity(): AppCompatActivity() {
 
@@ -35,7 +37,16 @@ class BaseActivity(): AppCompatActivity() {
 
         navController = navHostFragment?.findNavController()!!
         navController.setGraph(R.navigation.nav_graph)
-        navController.navigate(R.id.step1Fragment)
+        navController.navigate(R.id.cameraFragment)
+
+        val list = ArrayList<Int>()
+        list.add(1)
+        list.add(2)
+
+        if (list[0] == ServiceStepTypes.OcrCardFrontSide.value)
+            Log.e(tAG, "onCreate:Enum is true ${ServiceStepTypes.OcrCardFrontSide.value} " )
+
+        Log.e(tAG, "onCreate:Enum ${ServiceStepTypes.OcrCardFrontSide.value} " )
 
     }
 

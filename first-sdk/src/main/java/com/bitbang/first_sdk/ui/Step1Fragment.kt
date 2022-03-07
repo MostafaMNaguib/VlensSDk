@@ -6,7 +6,6 @@ import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,7 +16,6 @@ import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.bitbang.first_sdk.R
 import com.bitbang.first_sdk.databinding.FragmentStep1Binding
 import com.bitbang.first_sdk.fastBlur
 import com.bitbang.first_sdk.getBase64

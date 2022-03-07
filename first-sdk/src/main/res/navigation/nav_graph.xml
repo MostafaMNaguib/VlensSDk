@@ -8,6 +8,14 @@
         android:id="@+id/step1Fragment"
         android:name="com.bitbang.first_sdk.ui.Step1Fragment"
         android:label="Step1Fragment" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.bitbang.first_sdk.ui.camera.CameraFragment"
+        android:label="CameraFragment" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.bitbang.first_sdk.ui.camera.VideoFragment"
+        android:label="VideoFragment" />
 
 
 </navigation>
